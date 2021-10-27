@@ -9,7 +9,7 @@ g++ dscpcd.cpp -o dscpcd -fopenmp -std=c++11
 ./dscpcd DataName
 
 # 1. Format of input graph topological files.  
-SONTA supports two format of input topology files. All nodes will be renamed and the correspondence between nodes' new id and original name is stored in a map<string, int> structure.
+DSCPCD supports two format of input topology files. All nodes will be renamed and the correspondence between nodes' new id and original name is stored in a map<string, int> structure.
 
 1) edge list (.edgelist).  
 NodeName1 NodeName2  
@@ -27,7 +27,7 @@ TargetNodeName3 NeighborNodeName5 NeighborNodeName6 NeighborNodeName7 ...... Nei
 ......  
 
 # 2. Format of input graph cluster ground truth files.  
-SONTA supports two format of input cluster ground truth files. Similarly, all clusters will be renamed and the correspondence between clusters' new id and their original name is stored in a map<string, int> structure.
+DSCPCD supports two format of input cluster ground truth files. Similarly, all clusters will be renamed and the correspondence between clusters' new id and their original name is stored in a map<string, int> structure.
 
 1) each line denotes a node's affilication (.ngt). (first name is target node, others are cluster name)  
 NodeName1 ClusterName1 ClusterName2 ...... ClusterNameI  
