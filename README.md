@@ -5,6 +5,7 @@ Community detection on social networks is a fundamental and crucial research top
   
 # Commands:
 g++ dscpcd.cpp -o dscpcd -fopenmp -std=c++11
+
 ./dscpcd DataName
 
 # 1. Format of input graph topological files.  
