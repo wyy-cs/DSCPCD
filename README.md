@@ -1,2 +1,1 @@
-# DSCPCD
-Dual Structural Consistency Preserving Community Detection on Social Networks
+Dual Structural Consistency Preserving Community Detection on Social Networks (DSCPCD)
